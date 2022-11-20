@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospitals</title>
+    <link rel="stylesheet" href="hospita.css">
+</head>
+<style>
+    .main{
+        display: grid;
+        grid-template-rows: 50vh 50vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+    .img{
+        grid-column: 1 / span 3;
+       
+
+    }
+    .content{
+        grid-column:4 / span 3;
+        grid-row: 1 / span 2;
+        padding-top: 10%;
+        padding-left: 15%;
+    }
+    .img1{
+        padding-top: 60%;
+    }
+    .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 400px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: rgb(168, 241, 241);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+#btn1{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(62, 186, 81);
+}
+#btn2{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(62, 177, 110);
+}
+.space{
+    width: 4px;
+    height: auto;
+    display: inline-block;
+}
+#more{
+    display: none;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height:39px;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+
+ 
+
+</style>
+<body>
+    <section  class="header">
+        <a href="#"><img src="images/logo.jpg" alt=""></a>
+    <div>
+    </section>
+    
+        <ul id="navbar">
+    <div class="main">
+        <div class="img">
+            <img src="images/h1.1.JPG" width="100%" >
+        </div>
+        <div class="img1"><img src="images/h1.2.JPG" width="100%" alt=""></div>
+        <div class="img2"><img src="images/h1.3.JPG" width="100%" alt=""></div>
+        <div class="img3"><img src="images/h1.4.JPG" width="100%" alt=""></div>
+    
+    <div class="content">
+        <form action="tel:7353040000"><button type="submit" id="btn1" >phone</button>
+
+       </form>
+       <div class="space"></div>
+        <form action="http://wa.me/7353040000"><button type="submit" id="btn2" >whatsapp</button>
+        
+        </form>
+        <h1>Gadag City, Gadag - 582103</h1>
+        <h2><b>WORKING HOUR</b></h2>
+        <h4><b>The establishment is functional on</b></h4>
+        Monday:- Open 24 Hrs<br>
+        Tuesday:- Open 24 Hrs<br>
+        Wednesday:- Open 24 Hrs<br>
+        Thursday:- Open 24 Hrs<br>
+        Friday:- Open 24 Hrs<br>
+        Saturday:- Open 24 Hrs<br>
+        Sunday:- Open 24 Hrs
+<hr>
+<h2><b>facilities</b></h2>
+        <p><li> Colonoscopy</li>
+            <li>Parathyroid</li>
+            <li>Arthroplasty</li>
+            <li> Gynae Cancer</li> 
+            <li>Spine Surgery</li>
+            <li> Brain Spine Tb</li>
+            <li> Breast Surgery</li>
+            <li> Cancer Surgery</li><span id="dots">...</span><span id="more"><li> Hernia Surgery </li>
+                <li> Neuroradiology</li> 
+                <li> Cancer Services</li> 
+                <li> Fistula Surgery</li> 
+                <li> Hemato Oncology </li>
+                <li> Nasal Endoscopy</li> 
+                <li> Cancer Treatment </li>
+                <li> Simple Radiology </li>
+                <li> Stroke Treatment</li> 
+                <li> Thyroid Swelling </li>
+                                                                                                    
+                <li> Acidity Treatment   </li>
+                <li> Colitis Treatment </li> 
+                <li> Fistula Treatment </li> 
+                <li> Intestine Surgery </li> 
+                <li> Surgical Oncology </li> 
+                <li> Urologic Oncology </li> 
+                <li> Breast Examination  </li>
+                <li> Colorectal Surgery  </li>
+                <li>Gi And Hpb Surgery </li> 
+                <li>Thyroid Specialist </li>
+                <li> Gastritis Treatment  </li>
+                <li> Parathyroid Adrenal  </li>
+                <li> Pediatric Neurology  </li>
+                <li>Preventive Medicine </li>
+                <li> Anal Fissure Surgery </li> 
+                <li>Gall Bladder Surgery  </li>
+                <li> Neuro Rehabilitation  </li>
+                <li> Parathyroid diseases  </li>
+                <li>Ent Checkup (General)  </li>
+                <li>Hemorrhoids Treatment </li> 
+                <li>Hernia Repair Surgery  </li>
+                <li>Appendicitis Treatment </li> 
+                <li>Cancer Pain Management  </li>
+                <li>Constipation Treatment  </li>
+                <li>Breast Cancer Screening  </li>
+                <li>Interventional Radiology </li> 
+                <li>Gastro Intestinal Surgeon </li> 
+                <li>Thyroid Disorder Treatment </li> 
+                <li>Paediatric & Female Urology </li> 
+                <li>Endocrinology Test Available  </li>
+                <li>Gall Bladder Stone Treatment </li>
+                <li>General Diagnostic Radiology </li> 
+                <li>Treatment For Gastroenteritis </li> 
+                <li>Diagnostic Radiology and Imaging </li></span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+        
+    
+    </div>
+</div>
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+
+    var img = document.getElementsByClassName("img");
+    var main1 = document.getElementsByClassName("img1");
+    var main2 = document.getElementsByClassName("img2");
+    var main3 = document.getElementsByClassName("img3");
+
+    img1[0].onclik=function(){
+        img.src= img1[0].src;
+    }
+    img2[1].onclik=function(){
+        img.src= img1[1].src;
+    }
+    img3[2].onclik=function(){
+        img.src= img1[2].src;
+    }
+    </script>
+
+<div class="footer">
+    <p> linkedin
+    instagram
+github<br>
+</p>
+  </div>
+
+  
+  
+  
+</body>

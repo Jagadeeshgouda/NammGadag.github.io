@@ -1,0 +1,273 @@
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 550px;
+}
+
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+#hospitals{
+  text-align: center;
+  cursor: pointer;
+  
+}
+* {
+  box-sizing: border-box;
+}
+.imageColumn {
+  float: left;
+  width: 25%;
+  padding: 35px 9px;
+  margin-right: 20px;
+  min-width: 294px;
+  margin-bottom: 20px;
+  border: 1px solid#cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 2opx 20px 30px rgba(0, 0, 0, 0.2);
+  margin: 15px 0;
+  transition: 0.3s ease;
+  
+
+}
+
+
+h1{
+  text-align: center;
+}
+
+
+
+
+
+.imageColumn:hover{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.imageColumn img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+#hospitals .pro .des{
+  text-align: start;
+  padding: 10px 0;
+  
+  
+}
+
+
+
+.alignrow{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  display: block;
+  display: inline-flex;
+  flex-basis: 24%;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+
+/* hospital 1 css */
+
+
+
+#hospital1 .single-image{
+  width: 44%;
+  margin-left: 5px;
+  
+  padding: 15px 14px;
+}
+
+
+#hospital1 .group-image{
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  width: 45%;
+  padding: -14px 25px;
+  margin-right: -330px;
+  min-width: 200px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+  
+}
+
+
+#hospital.small-image{
+  flex-basis: 32%;
+  cursor: pointer;
+}
+
+.btn{
+  padding-left: 20px;
+  padding-bottom: 2000px;
+}
+.btn1{
+  padding-left: 200px;
+  
+}
+
+#city{
+  display: flex;
+  align-content: flex-start;
+}
+
+.hospital1-details{
+ display: flex;
+ margin-top: 20px;
+ padding-left: 500px;
+ padding-top: -500px;
+}
+
+#single-image{
+  display: flex;
+  gap: 9rem;
+  padding-left: 20px;
+}
+
+footer{
+  /*if you want the footer stick to bottom remove the comment*/
+  /**
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    **/
+    background: white;
+    height: 1ex;
+    width: 100%;
+    font-family: Monospace;
+    padding-top: 120px;
+    color: #fff;
+    padding-bottom: 3ex;
+  }
+  
+  
+  
+  .footer-content{
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  
+  .footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  
+  .footer-content img{
+    width: 20px;
+    cursor: pointer;
+  }
+  
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  
+  .socials li{
+    margin: 0 10px;
+  }
+  
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+  }
+  
+  .socials a:hover i{
+    color: aqua;
+  }
+  
+  .footer-bottom{
+    background: white;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
+  
+  .footer-bottom span a{
+    text-decoration: none;
+    color: #fff;
+  }

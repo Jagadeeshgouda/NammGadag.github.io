@@ -1,0 +1,1357 @@
+a:hover {
+    text-decoration: none !important;
+}
+
+#destModal ul li a {
+    display: block;
+    color: #000;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#destModal ul li {
+    list-style-type: none;
+    position: relative;
+    border: 1px solid #e6e4e4;
+    background: #fff;
+    margin: 0 10px 5px 8px;
+    float: left;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.best-season{
+    height: 27px;
+}
+
+.np-places-footer{
+    padding: 5px 10px 10px 10px;
+}
+
+.np-places-container {
+    /*    height: 415px;*/
+}
+
+.distanceTimeCls{
+    color: #545454;
+    font-weight: normal;
+    float: right;
+    margin: 15px 5px 0 0;
+    font-size: 13.5px;
+}
+
+.np-howtoreach-content {
+
+}
+.np-howtoreach-content p {
+    color: #000000;
+    font-size: 13.5px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.errorCls{
+    color: #FF0000;
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    padding: 0px;
+}
+
+.by-train {background: url(/media/images/web/train-icon.svg) no-repeat 0 0;}
+
+
+h5.hed {
+    font-size: 20px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.np-weatherBlock {
+    float: left;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 97%;
+    font-size: 15px;
+}
+
+.np-weatherBlock span {
+    display: block;
+    line-height: 20px;
+}
+
+.np-weatherLeftBlock {
+    float: left;
+}
+
+.wthr_desc {
+    float: left;
+    padding-left: 10px;
+}
+
+.np-weatherRightBlock {
+    float: right;
+}
+
+.np-weatherTable {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.np-weatherTable .head td {
+    border-bottom: 1px solid #ccc;
+    background-image: linear-gradient(top, #f3f3f3 7%, #f0f0f0 45%, #e8e8e8 76%);
+    background-image: -o-linear-gradient(top, #f3f3f3 7%, #f0f0f0 45%, #e8e8e8 76%);
+    background-image: -moz-linear-gradient(top, #f3f3f3 7%, #f0f0f0 45%, #e8e8e8 76%);
+    background-image: -webkit-linear-gradient(top, #f3f3f3 7%, #f0f0f0 45%, #e8e8e8 76%);
+    background-image: -ms-linear-gradient(top, #f3f3f3 7%, #f0f0f0 45%, #e8e8e8 76%);
+}
+.np-weatherTable td {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.np-weatherTable td {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #e6e5e5;
+    padding: 7px 4px;
+    vertical-align: middle;
+}
+
+.placeLabel {
+    font-size: 14px;
+    color: #333333;
+    padding: 10px 10px 10px 20px !important;
+    border-bottom: solid thin #cccccc;
+}
+
+.np-accorHeading {
+    border: 1px solid #c3c3c3;
+    height: 28px;
+    font-size: 1.4em;
+    line-height: 28px;
+    padding: 0 5px 0 10px;
+    cursor: pointer;
+}
+
+.np-placesList ul li {
+    float: left;
+    list-style: none;
+    list-style: url(/media/images/web/home-bullet.png) outside;
+    width: 27%;
+    margin: 4px 3%;
+    font-size: 1.4em;
+    height: 25px;
+}
+
+span.summer{
+    background:url("/media/images/np-sprite.png") no-repeat scroll -262px -40px transparent;
+}
+span.monsoon{
+    background:url("/media/images/np-sprite.png") no-repeat scroll -284px -40px transparent;
+}
+span.winter{
+    background:url("/media/images/np-sprite.png") no-repeat scroll -240px -40px transparent;
+}
+
+.np-stateDesTable {
+    border-collapse: collapse;
+    font-size: 1.4em;
+    color: #000;
+    width: 100%;
+}
+
+.np-stateDesTable td {
+    padding: 4px 0;
+    width: 25%;
+    word-wrap: break-word;
+}
+
+.np-stateDestinations h3 {
+    color: #000000;
+    font-size: 1.6em;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #cccccc;
+    background: none;
+}
+
+
+.np-icons.adventure {
+    background: url(/media/images/np-sprite.png) no-repeat 0 -240px;
+}
+
+.np-icons.beaches {
+    background: url(/media/images/np-sprite.png) no-repeat -21px -240px;
+}
+
+.np-icons.city {
+    background: url(/media/images/np-sprite.png) no-repeat -42px -240px;
+}
+
+.np-icons.heritage {
+    background: url(/media/images/np-sprite.png) no-repeat -63px -240px;
+}
+
+.np-icons.hill-station {
+    background: url(/media/images/np-sprite.png) no-repeat -84px -240px;
+}
+
+.np-icons.pilgrimage {
+    background: url(/media/images/np-sprite.png) no-repeat -105px -240px;
+}
+.np-icons.wildlife {
+    background: url(/media/images/np-sprite.png) no-repeat -126px -240px;
+}
+.np-icons.backwaters{
+    background: url(/media/images/np-sprite.png) no-repeat -146px -240px;
+}
+
+.np-stateDesTable td a {
+    color: #0066cc;
+    padding-left: 15px;
+    background: url(/media/images/web/home-bullet.png) no-repeat left 6px;
+    display: block;
+}
+
+.w-icon {
+    background-size: 100%;
+}
+
+.w-icon1 {
+    background: url(/media/images/weather/weather-icons/01.svg) no-repeat;
+}
+
+.w-icon2 {
+    background: url(/media/images/weather/weather-icons/02.svg) no-repeat;
+}
+
+.w-icon3 {
+    background: url(/media/images/weather/weather-icons/03.svg) no-repeat;
+}
+
+.w-icon4 {
+    background: url(/media/images/weather/weather-icons/04.svg) no-repeat;
+}
+
+.w-icon5 {
+    background: url(/media/images/weather/weather-icons/05.svg) no-repeat;
+}
+
+.w-icon6 {
+    background: url(/media/images/weather/weather-icons/06.svg) no-repeat;
+}
+
+.w-icon7 {
+    background: url(/media/images/weather/weather-icons/07.svg) no-repeat;
+}
+
+.w-icon8 {
+    background: url(/media/images/weather/weather-icons/08.svg) no-repeat;
+}
+
+.w-icon9 {
+    background: url(/media/images/weather/weather-icons/09.svg) no-repeat;
+}
+
+.w-icon10 {
+    background: url(/media/images/weather/weather-icons/10.svg) no-repeat;
+}
+
+.w-icon11 {
+    background: url(/media/images/weather/weather-icons/11.svg) no-repeat;
+}
+
+.w-icon12 {
+    background: url(/media/images/weather/weather-icons/12.svg) no-repeat;
+}
+
+.w-icon13 {
+    background: url(/media/images/weather/weather-icons/13.svg) no-repeat;
+}
+
+.w-icon14 {
+    background: url(/media/images/weather/weather-icons/14.svg) no-repeat;
+}
+
+.w-icon15 {
+    background: url(/media/images/weather/weather-icons/15.svg) no-repeat;
+}
+
+.w-icon16 {
+    background: url(/media/images/weather/weather-icons/16.svg) no-repeat;
+}
+
+.w-icon17 {
+    background: url(/media/images/weather/weather-icons/17.svg) no-repeat;
+}
+
+.w-icon18 {
+    background: url(/media/images/weather/weather-icons/18.svg) no-repeat;
+}
+
+.w-icon19 {
+    background: url(/media/images/weather/weather-icons/19.svg) no-repeat;
+}
+
+.w-icon20 {
+    background: url(/media/images/weather/weather-icons/20.svg) no-repeat;
+}
+
+.w-icon21 {
+    background: url(/media/images/weather/weather-icons/21.svg) no-repeat;
+}
+
+.w-icon22 {
+    background: url(/media/images/weather/weather-icons/22.svg) no-repeat;
+}
+
+.w-icon23 {
+    background: url(/media/images/weather/weather-icons/23.svg) no-repeat;
+}
+
+.w-icon24 {
+    background: url(/media/images/weather/weather-icons/24.svg) no-repeat;
+}
+
+.w-icon25 {
+    background: url(/media/images/weather/weather-icons/25.svg) no-repeat;
+}
+
+.w-icon26 {
+    background: url(/media/images/weather/weather-icons/26.svg) no-repeat;
+}
+
+.w-icon27 {
+    background: url(/media/images/weather/weather-icons/27.svg) no-repeat;
+}
+
+.w-icon28 {
+    background: url(/media/images/weather/weather-icons/28.svg) no-repeat;
+}
+
+.w-icon29 {
+    background: url(/media/images/weather/weather-icons/29.svg) no-repeat;
+}
+
+.w-icon30 {
+    background: url(/media/images/weather/weather-icons/30.svg) no-repeat;
+}
+
+.w-icon31 {
+    background: url(/media/images/weather/weather-icons/31.svg) no-repeat;
+}
+
+.w-icon32 {
+    background: url(/media/images/weather/weather-icons/32.svg) no-repeat;
+}
+
+.w-icon33 {
+    background: url(/media/images/weather/weather-icons/33.svg) no-repeat;
+}
+
+.w-icon34 {
+    background: url(/media/images/weather/weather-icons/34.svg) no-repeat;
+}
+
+.w-icon35 {
+    background: url(/media/images/weather/weather-icons/35.svg) no-repeat;
+}
+
+.w-icon36 {
+    background: url(/media/images/weather/weather-icons/36.svg) no-repeat;
+}
+
+.w-icon37 {
+    background: url(/media/images/weather/weather-icons/37.svg) no-repeat;
+}
+
+.w-icon38 {
+    background: url(/media/images/weather/weather-icons/38.svg) no-repeat;
+}
+
+.w-icon39 {
+    background: url(/media/images/weather/weather-icons/39.svg) no-repeat;
+}
+
+.w-icon40 {
+    background: url(/media/images/weather/weather-icons/40.svg) no-repeat;
+}
+
+.w-icon41 {
+    background: url(/media/images/weather/weather-icons/41.svg) no-repeat;
+}
+
+.w-icon42 {
+    background: url(/media/images/weather/weather-icons/42.svg) no-repeat;
+}
+
+.w-icon43 {
+    background: url(/media/images/weather/weather-icons/43.svg) no-repeat;
+}
+
+.w-icon44 {
+    background: url(/media/images/weather/weather-icons/44.svg) no-repeat;
+}
+/*
+.weather {
+    background: #f7f6f6;
+    border: solid thin #e2e1e1;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.weather > div {
+    float: left;
+}
+.weather-icon .w-icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: 75%;
+    border-radius: 50%;
+}
+.weather-unit {
+    font-size: 30px;
+}
+.weather-unit span {
+    font-size: 68px;
+    font-weight: 300;
+    color: #ff9838;
+    line-height: 40px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.weather-unit span sup {
+    font-size: 42px;
+    color: #000000;
+    position: relative;
+    top: -5px;
+}
+.weather-block {
+    margin: 10px 0 0;
+    width: 141px;
+    text-align: center;
+    padding: 0 15px;
+    border-right: solid thin #e2e1e1;
+}
+.weather-block span {
+    display: block;
+    color: #666666;
+}
+.weather-block:last-child {
+    border-right: none;
+}
+.map {
+    padding: 20px 0;
+    background: url(/media/images/web/map.png) no-repeat;
+    background-size: 100%;
+    border: solid thin #e1e1e1;
+    margin: 10px 0;
+}
+.map ul {
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.map ul li {
+    width: 33.33%;
+    float: left;
+    font-size: 14px;
+}
+.map ul li a {
+    display: block;
+    padding: 7px 0 7px 15px;
+    background: url(/media/images/web/home-bullet.png) no-repeat left 14px;
+    color: #333333;
+}
+.map ul li a:hover {
+    color: #000000;
+}
+
+.np-weather-cityright {
+    float: left;
+    padding: 5px 10px;
+    width: 87px;
+}
+
+.np-weather-text3 {
+    font-size: 11px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.np-weather-cityleft {
+    float: left;
+    width: 200px;
+    padding: 5px 15px;
+}
+
+.np-subnav ul li a {
+    padding: 5px 8px;
+} */
+
+
+/***************************************/
+
+/*Added on 29 December 2017 By Kiran for new Destination page*/
+.np-subnav ul li a {
+    padding: 5px 15px;
+    color: #ffffff !important;
+    border-bottom: 2px solid transparent;
+}
+
+.np-article-wrapper .np-subnav {
+    padding: 0;
+    background: #333333;
+}
+
+.np-article-imgblock {
+    position: relative;
+    margin-bottom: 0;
+}
+.np-article-imgblock img {
+    width: 100%;
+    display: block;
+}
+.np-article-imgblock h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 32px;
+    color: #ffffff;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
+}
+
+.np-subnav {
+    -moz-box-shadow: 0px 3px 8px -1px #000000;
+    -webkit-box-shadow: 0px 3px 8px -1px #000000;
+    box-shadow: 0px 3px 8px -1px #000000;
+    margin-bottom: 20px !important;
+}
+
+.sticky .np-subnav {
+    width: 930px;
+    top: 70px;
+    z-index: 9999;
+}
+
+.photos-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px 10px 5px 30px;
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    background: #bf1e2d url(/media/images/destination/photos-icon.png) no-repeat 7px 6px;
+    -moz-transition: all 0.27s ease-in-out;
+    -o-transition: all 0.27s ease-in-out;
+    -webkit-transition: all 0.27s ease-in-out;
+    transition: all 0.27s ease-in-out;
+}
+
+#overview .np-article-content {
+    height: 240px;
+    overflow: hidden;
+    -moz-transition: all 0.27s ease-in-out;
+    -o-transition: all 0.27s ease-in-out;
+    -webkit-transition: all 0.27s ease-in-out;
+    transition: all 0.27s ease-in-out;
+}
+#overview .np-more {
+    margin-left: 300px;
+    position: relative;
+    top: -25px;
+}
+#overview .np-more:before {
+    content: "";
+    top: -10px;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 25px;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjciLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.7)), color-stop(100%, #ffffff));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.7), #ffffff);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7), #ffffff);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), #ffffff);
+}
+#overview .full-text .np-article-content {
+    height: auto;
+}
+#overview .full-text .np-more:before {
+    background-image: none;
+}
+
+.np-section {
+    position: relative;
+    padding: 10px 0;
+}
+.np-section h2 {
+    font-size: 26px;
+    font-weight: normal;
+}
+.np-section ul li a {
+    color: #000000;
+}
+.np-section ul li:hover .text {
+    color: #bf1e2d;
+}
+.np-section ul li:hover .image img {
+    -moz-transform: scale3d(1.05, 1.05, 1);
+    -ms-transform: scale3d(1.05, 1.05, 1);
+    -webkit-transform: scale3d(1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1);
+}
+.np-section ul .image {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.np-section ul .image img {
+    width: 100%;
+    display: block;
+    -moz-transition: all 0.27s ease-in-out;
+    -o-transition: all 0.27s ease-in-out;
+    -webkit-transition: all 0.27s ease-in-out;
+    transition: all 0.27s ease-in-out;
+}
+.np-section ul .text {
+    margin: 5px 10px;
+    font-size: 18px;
+}
+.np-section ul .text:hover {
+    color: #bf1e2d;
+}
+.np-section ul .text span {
+    color: #666666;
+    font-size: 12px;
+    display: block;
+    padding-top: 5px;
+}
+
+.attractions, .weekend-gate {
+    margin: 5px 0 20px;
+    border: solid thin #dcdcdc;
+    position: relative;
+    padding-bottom: 20px;
+}
+.attractions ul li, .weekend-gate ul li {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+.attractions ul li a, .weekend-gate ul li a {
+    display: block;
+    padding: 10px;
+}
+.attractions ul li .viewmap, .weekend-gate ul li .viewmap {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: -15px;
+}
+.attractions ul li .viewmap a, .weekend-gate ul li .viewmap a {
+    padding: 0;
+    color: #c01e2e;
+    font-size: 12px;
+}
+
+.weekend-gate {
+    padding-bottom: 10px;
+}
+
+.hotels {
+    margin: 5px 0 20px;
+    border: solid thin #dcdcdc;
+    position: relative;
+}
+.hotels ul {
+    padding: 5px 10px 0;
+}
+.hotels ul li {
+    width: 25%;
+    float: left;
+    padding: 0;
+}
+.hotels ul li a {
+    display: block;
+    padding: 15px 10px;
+}
+.hotels ul li:hover .image img {
+    -moz-transform: scale3d(1.05, 1.05, 1);
+    -ms-transform: scale3d(1.05, 1.05, 1);
+    -webkit-transform: scale3d(1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1);
+}
+.hotels .image img {
+    -moz-transition: all 0.27s ease-in-out;
+    -o-transition: all 0.27s ease-in-out;
+    -webkit-transition: all 0.27s ease-in-out;
+    transition: all 0.27s ease-in-out;
+}
+.hotels .text {
+    padding: 0 10px;
+    border: none;
+}
+
+.hotels .text h3 {
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    height: 50px;
+    overflow: hidden;
+}
+.hotels .text .rupee {
+    padding-bottom: 5px;
+}
+.hotels .text .rupee strong {
+    display: block;
+    font-size: 26px;
+}
+
+.np-section .hotels .text .view-deal button {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    background: #c01e2e;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.np-more {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    text-align: right;
+}
+.np-more a {
+    color: #bf1e2d;
+    font-size: 16px;
+}
+
+.photos {
+    padding: 10px 0;
+}
+.photos ul li {
+    float: left;
+    position: relative;
+}
+.photos ul li img {
+    display: block;
+    width: 100%;
+    border-right: solid thin #ffffff;
+    border-bottom: solid thin #ffffff;
+}
+.photos ul li:last-child img {
+    border-right: none;
+}
+.photos ul.col3 li {
+    width: 33.33%;
+}
+.photos ul.col4 li {
+    width: 25%;
+}
+.photos ul.col4 li:last-child a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.how-to-reach {
+    padding: 10px 0;
+}
+.how-to-reach ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border: solid thin #e2e1e1;
+    position: relative;
+}
+.how-to-reach ul:before, .how-to-reach ul:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #e2e1e1;
+    height: 100%;
+    margin: auto;
+    visibility: visible;
+}
+.how-to-reach ul:before {
+    left: 33.33%;
+}
+.how-to-reach ul:after {
+    right: 33.33%;
+}
+.how-to-reach ul li {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+.how-to-reach ul li .head {
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: solid thin #e2e1e1;
+}
+.how-to-reach ul li .content {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 10px 60px;
+}
+.how-to-reach ul li a.search {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    background: #c01e2e;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    bottom: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -moz-transition: all 0.27s ease-in-out;
+    -o-transition: all 0.27s ease-in-out;
+    -webkit-transition: all 0.27s ease-in-out;
+    transition: all 0.27s ease-in-out;
+}
+.how-to-reach ul li:hover a.search {
+    background: #941723;
+}
+
+.travel-guide {
+    padding: 10px 0;
+}
+.travel-guide ul li {
+    width: 31%;
+    float: left;
+    margin-right: 3.5%;
+}
+.travel-guide ul li:nth-child(3n) {
+    margin-right: 0;
+}
+.travel-guide ul li .text {
+    padding: 10px;
+    border: solid thin #e2e1e1;
+    border-top: none;
+}
+.travel-guide ul li .text-head {
+    font-size: 22px;
+}
+.travel-guide ul li .text-desc {
+    font-size: 15px;
+    padding-top: 15px;
+    color: #000000;
+}
+
+.famous {
+    padding: 10px 20px;
+    border: solid thin #dcdcdc;
+    margin: 5px 0 20px;
+}
+.famous ul li {
+    float: left;
+    margin-right: 30px;
+}
+.famous ul li a {
+    display: block;
+    padding: 10px;
+    padding-left: 74px;
+    height: 64px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 44px;
+}
+
+
+.famous ul li a.beaches {
+    background: url(/media/images/destination/beaches.png) no-repeat;
+}
+
+.famous ul li a.city {
+    background: url(/media/images/destination/city.png) no-repeat;
+}
+
+.famous ul li a.heritage {
+    background: url(/media/images/destination/heritage.png) no-repeat;
+}
+
+.famous ul li a.hill-station {
+    background: url(/media/images/destination/hill-station.png) no-repeat;
+}
+.famous ul li a.pilgrimage {
+    background: url(/media/images/destination/pilgrimage.png) no-repeat;
+}
+.famous ul li a.wildlife {
+    background: url(/media/images/destination/wildlife.png) no-repeat;
+}
+.famous ul li a.backwaters {
+    background: url(/media/images/destination/backwaters.png) no-repeat;
+}
+.famous ul li a.adventure {
+    background: url(/media/images/destination/adventure.png) no-repeat;
+}
+
+
+.weather-wrapper {
+    margin: 5px 0 20px;
+    padding: 15px;
+    border: solid thin #dcdcdc;
+    position: relative;
+}
+.weather-block {
+    float: left;
+    margin-right: 20px;
+}
+.weather-block .city {
+    font-size: 18px;
+    color: #000000;
+}
+.weather-block .temperature {
+    font-size: 30px;
+    color: #ff9838;
+}
+.weather-block .temperature sup {
+    font-size: 18x;
+}
+.weather-block.icon {
+    padding-left: 75px;
+    background: url(/media/images/destination/weather-icon.png) no-repeat left;
+}
+.weather-block ul {
+    margin: 15px 0 0;
+}
+.weather-block ul li {
+    padding: 8px 20px;
+    float: left;
+    font-size: 16px;
+    border-right: solid thin #dcdcdc;
+}
+.weather-block ul li:last-child {
+    border-right: none;
+}
+.weather-season {
+    margin: 20px 0 0;
+}
+.weather-season h3 {
+    font-size: 16px;
+}
+.weather-season ul {
+    padding: 20px 0 0;
+}
+.weather-season ul li {
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    padding-right: 30px;
+    margin-bottom: 15px;
+    width: 85px;
+}
+.weather-season ul li.active {
+    padding-left: 25px;
+    background: url(/media/images/destination/check-icon.png) no-repeat left center;
+}
+
+.weather-icon .w-icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: 75%;
+    border-radius: 50%;
+}
+
+.np-right .np-section {
+    padding: 20px 0 10px;
+}
+
+.near-by ul {
+    margin: 10px 0 0;
+    border-bottom: solid thin #dcdcdc;
+    padding-bottom: 10px;
+}
+.near-by ul li {
+    float: left;
+    width: 47.5%;
+}
+.near-by ul li:nth-child(2n) {
+    float: right;
+}
+.near-by ul li img {
+    width: 100%;
+    display: block;
+}
+.near-by ul li span {
+    display: block;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+
+/*For Attractions*/
+.np-breadcrumb {
+    position: relative;
+}
+.np-breadcrumb.show .np-back:before {
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.np-breadcrumb.show .np-back-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.np-breadcrumb .np-right {
+    padding: 0 15px;
+    line-height: 30px;
+    color: #ffffff;
+    background: #c01e2e;
+    margin: 0;
+    position: relative;
+    -moz-transition: all 0.27s ease-in-out;
+    -o-transition: all 0.27s ease-in-out;
+    -webkit-transition: all 0.27s ease-in-out;
+    transition: all 0.27s ease-in-out;
+}
+.np-breadcrumb .np-right:after {
+    content: "";
+    border-left: solid thin #ffffff;
+    border-bottom: solid thin #ffffff;
+    display: inline-block;
+    margin-left: 3px;
+    width: 7px;
+    height: 7px;
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+}
+.np-breadcrumb .np-right:hover {
+    background: #aa1b29;
+}
+
+.np-breadcrumb a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.np-back {
+    width: 30px;
+    height: 30px;
+    background: #bf1e2d;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    margin: 0 !important;
+}
+.np-back:hover {
+    background: #aa1b29;
+}
+.np-back:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-left: solid 2px #ffffff;
+    border-top: solid 2px #ffffff;
+    top: 0;
+    left: 5px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -moz-transition: all 0.27s ease-in-out;
+    -o-transition: all 0.27s ease-in-out;
+    -webkit-transition: all 0.27s ease-in-out;
+    transition: all 0.27s ease-in-out;
+}
+.np-back-menu {
+    position: absolute;
+    background: #c01e2e;
+    z-index: 99;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -moz-transition: all 0.27s ease-in-out;
+    -o-transition: all 0.27s ease-in-out;
+    -webkit-transition: all 0.27s ease-in-out;
+    transition: all 0.27s ease-in-out;
+    z-index: 9999;
+}
+.np-back-menu ul {
+    padding: 10px 0;
+}
+.np-back-menu ul li a {
+    color: #ffffff;
+    display: block;
+    padding: 5px 10px;
+    margin: 0 !important;
+    font-size: 16px;
+}
+.np-back-menu ul li a:hover {
+    background: #941723;
+}
+
+.np-attraction h1 {
+    font-size: 32px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.np-tags {
+    position: relative;
+}
+.np-tags ul {
+    position: relative;
+    padding: 10px;
+    height: 50px;
+    overflow: hidden;
+    border: thin solid #dedede;
+    -webkit-transition: height 0.8s ease-in-out 0s;
+    -moz-transition: height 0.8s ease-in-out 0s;
+    -o-transition: height 0.8s ease-in-out 0s;
+    -ms-transition: height 0.8s ease-in-out 0s;
+    transition: height 0.8s ease-in-out 0s;
+}
+.np-tags ul li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.np-tags ul li a {
+    font-size: 13px;
+    display: block;
+    padding: 5px 10px;
+    border: solid thin #d5d5d5;
+    border-radius: 3px;
+    color: #666666;
+}
+.np-tags ul li a.active, .np-tags ul li a:hover {
+    color: #c01e2e;
+}
+.np-tags-showmore {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 16px;
+    color: #fff;background: #e84260;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    z-index: 97;}
+
+.np-tags .np-tags-showmore .fa-minus, .np-tags.show-more .np-tags-showmore .fa-plus {display: none;}
+.np-tags.show-more .np-tags-showmore .fa-minus {display: block;padding-top:6px;}
+.np-tags.show-more ul {height: auto;}
+.np-tags-showmore i {vertical-align: middle;display: inline-block;}
+
+.np-attraction-list ul li {
+    padding: 25px 0;
+    border-bottom: solid thin #c6c6c6;
+}
+.np-attraction-list ul li:last-child {
+    border-bottom: none;
+}
+.np-attraction-list ul li h2 {
+    font-size: 32px;
+    font-weight: normal;
+}
+.np-attraction-list ul li h2 span {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #bf1e2d;
+    margin-right: 10px;
+    color: #ffffff;
+}
+.np-attraction-block .left {
+    float: left;
+    width: 70%;
+    position: relative;
+}
+.np-attraction-block .left img {
+    width: 100%;
+    display: block;
+}
+.np-attraction-block .right {
+    float: right;
+    width: 30%;
+}
+.np-attraction-block .right > div {
+    padding: 0 10px;
+}
+.np-attraction-block .right .desc {
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 55px;
+}
+.np-attraction-block .right .desc-block {
+    height: 308px;
+    overflow: hidden;
+}
+.np-attraction-block .right .desc p {
+    padding-bottom: 10px;
+}
+.np-attraction-block .right .desc a {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    padding: 5px 0;
+    background: #e8e8e8;
+    font-size: 16px;
+    color: #c01e2e;
+}
+.np-attraction-block .right .best-time {
+    margin-top: 15px;
+    font-size: 16px;
+}
+.np-attraction-block .right .best-time-head {
+    font-weight: bold;
+}
+.np-attraction-block .right .best-time ul {
+    margin-top: 5px;
+}
+.np-attraction-block .right .best-time ul li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+    padding: 0;
+    border-bottom: none;
+}
+.np-attraction-block .right .link-hotels {
+    margin-top: 5px;
+}
+.np-attraction-block .right .link-hotels a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.np-article-imgblock h2 {z-index: 98;}
+.animateimg {
+    -webkit-animation:aniupdown 10s infinite;
+    -moz-animation:aniupdown 10s infinite;
+    -o-animation: aniupdown 10s infinite;
+    animation:aniupdown 10s infinite;
+    width:100%;
+    -webkit-animation-direction:alternate;
+    -moz-animation-direction:alternate;
+    -o-animation-direction:alternate;
+    animation-direction:alternate;
+}
+@-webkit-keyframes "aniupdown" {
+    100% {
+        opacity:1; 
+        -moz-transform: scale3d(1,1,1) translate3d(0,-120px,40px);
+        -ms-transform: scale3d(1,1,1) translate3d(0,-120px,40px);
+        -webkit-transform: scale3d(1,1,1) translate3d(0,-120px,40px);
+        transform:scale3d(1,1,1) translate3d(0,-120px,40px);
+    }
+}
+@keyframes "aniupdown" {
+    100% {
+        opacity:1; 
+        -moz-transform: scale3d(1,1,1) translate3d(0,-120px,40px);
+        -ms-transform: scale3d(1,1,1) translate3d(0,-120px,40px);
+        -webkit-transform: scale3d(1,1,1) translate3d(0,-120px,40px);
+        transform:scale3d(1,1,1) translate3d(0,-120px,40px);
+    }
+}
+/*Style for New State Destination List on 19-Jan-2018*/
+
+.np-stateDes-lists {
+    background: #f8f7f7;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid #e6e4e4;
+    margin-bottom: 15px;
+}
+.np-stateDes-lists ul li {
+    float: left;
+    width: 20%;
+}
+.np-stateDes-lists ul li a {
+    padding: 5px;
+    border: 1px solid #e6e4e4;
+    background: #fff;
+    display: block;
+    font-size: 14px;
+    color: #000;
+    margin: 0 5px 5px 0;
+}
+.np-dest-subheading {
+    font-size: 26px;
+    color: #000;
+    padding: 5px 0 10px 0;
+}
+.np-dest-icons {
+    float: left;
+    text-indent: -9999px;
+    width: 35px;
+    height: 35px;
+    margin: 0 15px 0 0;
+}
+.np-dest-icons.adventure {background: url(/media/images/destination/destination-icons.png) no-repeat 0 0;}
+.np-dest-icons.beaches {background: url(/media/images/destination/destination-icons.png) no-repeat 0 -35px;}
+.np-dest-icons.city {background: url(/media/images/destination/destination-icons.png) no-repeat 0 -70px;}
+.np-dest-icons.heritage {background: url(/media/images/destination/destination-icons.png) no-repeat 0 -105px;}
+.np-dest-icons.hill-station {background: url(/media/images/destination/destination-icons.png) no-repeat 0 -140px;}
+.np-dest-icons.pilgrimage {background: url(/media/images/destination/destination-icons.png) no-repeat 0 -175px;}
+.np-dest-icons.wildlife {background: url(/media/images/destination/destination-icons.png) no-repeat 0 -210px;}
+.np-dest-icons.backwaters {background: url(/media/images/destination/destination-icons.png) no-repeat 0 -245px;}
+
+/*Ends here*/

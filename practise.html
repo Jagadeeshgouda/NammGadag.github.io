@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>namm gadag</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+  body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    
+  }
+  h3, h4 , h1 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;      
+    font-size: 20px;
+    color: #111;
+    padding-left: 500px;
+  }
+  .container {
+    padding: 80px 0px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+    
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+    padding: 5px 10px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    size: 0px;
+  }
+  .thumbnail p {
+    margin-top: 19px;
+    color: #555;
+    
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+  .modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-header, .modal-body {
+    padding: 40px 50px;
+  }
+  .nav-tabs li a {
+    color: #777;
+  }
+  #googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }  
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+  footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }  
+  .form-control {
+    border-radius: 0;
+  }
+  textarea {
+    resize: none;
+  }
+  .section-p1 {
+padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+body{
+    width: 100%;
+}
+#header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+    color: greenyellow;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after
+{
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: yellowgreen;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+section{
+    margin: 70px 0;
+    padding: 4px 40px;
+    padding-left: 10%;
+}
+#banner{
+ 
+  background-image: url(images/hospital/banner.jfif);
+  width: 100%;
+  height: 80vh;
+  left: 50%;
+ display: flex;
+ background-size: cover;
+ background-position: center;
+}
+#banner1{
+ 
+  background-image: url(images/tour/tour.jpg);
+  width: 100%;
+  height: 40vh;
+  left: 50%;
+ display: flex;
+ background-size: cover;
+ background-position: center;
+}
+#banner2{
+ 
+  background-image: url(images/college/baner.jpg);
+  width: 100%;
+  height: 80vh;
+  left: 50%;
+ display: flex;
+ background-size: cover;
+ background-position: center;
+}
+.row{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+line{
+  border-bottom: 10px black;
+  margin-top: 5px;
+  width: 90%;
+}
+footer{
+/*if you want the footer stick to bottom remove the comment*/
+/**
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  **/
+  background: white;
+  height: 95px;
+  width: 1350px;
+  font-family: Monospace;
+  padding-top: 100px;
+  color: #fff;
+ 
+  
+}
+
+
+
+.footer-content{
+  padding-top: 1px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.footer-content img{
+  width: 20px;
+  cursor: pointer;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  background: #000;
+  width: 160ex;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+.footer-bottom span a{
+  text-decoration: none;
+  color: #fff;
+}
+h1{
+  align-content: center;
+}
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <section id="header">
+    <a href="#"><img src="images/th.jfif" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="hospital.html">home</a></li>
+            <li><a href="hospital.html">hospitals</a></li>
+            <li><a href="tour.html">tourist places</a></li>
+            <li><a href="college.html">colleges</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+          
+                
+              </div>
+            
+              <form>
+                <input type="text" name="search" placeholder="Search..">
+              </form>
+              
+</nav>
+
+
+</section>
+        
+   
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    
+    <!-- Wrapper for slides -->
+   
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/home1.jpg" alt="New York" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images/home2.jpg" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="images/home3.jpg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+    </div>
+ 
+    <!-- Left and right controls -->
+   
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+
+
+  <h1 ><b>Featured hospitals</b></h1>
+  
+  <section id="banner" class="section"></section>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/hospital/h1.jpg" alt="Paris" width="400" height="300">
+        <p><strong>gadag</strong></p>
+     
+        <form action="tel:7019187852"><button type="submit">phone</button>
+  
+        </form>
+      </div>
+    </div>
+  
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/hospital/agadi2.jpg" alt="New York" width="400" height="300">
+        <p><strong>laxmeshwar</strong></p>
+       
+        <form action="tel:7019187852"><button type="submit">phone</button>
+  
+        </form>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/hospital/secure.jpg" alt="San Francisco" width="400" height="300">
+        <p><strong>gadag</strong></p>
+        <p></p>
+        <form action="tel:7019187852"><button type="submit">phone</button>
+  
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/hospital/rajiv.jpg" alt="Paris" width="400" height="300">
+        <p><strong>gadag</strong></p>
+        <p>Hubli super speciality  hospital</p>
+     
+        <form action="tel:7019187852"><button type="submit">phone</button>
+  
+        </form>
+      </div>
+    </div>
+  
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/hospital/agadi2.jpg" alt="New York" width="400" height="300">
+        <p><strong>laxmeshwar</strong></p>
+       
+        <form action="tel:7019187852"><button type="submit">phone</button>
+  
+        </form>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/hospital/secure.jpg" alt="San Francisco" width="400" height="300">
+        <p><strong>gadag</strong></p>
+        <p></p>
+        <form action="tel:7019187852"><button type="submit">phone</button>
+  
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <section id="banner1" class="section"></section>
+
+</section>
+<div class="row text-center">
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/tour/lxr.jpg" alt="Paris" width="400" height="300">
+      
+      <p><B>LAXMESHWAR</B></p>
+      <BR>
+      
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/tour/gajendrgada.jpg" alt="New York" width="400" height="300">
+      <p><strong>GAJENDRAGAD</strong></p>
+      <p>Historical Shivaji Fort </p>
+      
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/tour/someshwar.jpg" alt="San Francisco" width="400" height="300">
+      <p><strong>gadag</strong></p>
+      <p>Sunday 29 November 2015</p>
+      
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+<div class="row text-center">
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/tour/lakundi.jpg" alt="Paris" width="400" height="300">
+      <p><strong>LAKKUNDI</strong></p>
+      <p>Kashi Vishwanath Temple</p>
+      
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/tour/ron.jpg" alt="New York" width="400" height="300">
+      <p><strong>New York</strong></p>
+      <p>Saturday 28 November 2015</p>
+      
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/tour/kurtkoti.jpg" alt="San Francisco" width="400" height="300">
+      <p><strong>KURTAKOTI</strong></p>
+      <p>Sri Ugra Narasimha Temple </p>
+      
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+<section id="banner2" class="section">
+
+
+</section>
+<div class="row text-center">
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/college/agadiclg.jpg" alt="Paris" width="400" height="300">
+      <p><strong>LAXMESHWAR</strong></p>
+      <p>Smt Kamala Sri Venkappa M Agadi College Of Engineering And Technology</p>
+      <form action="tel:08487-272525"><button type="submit">phone</button>
+
+      </form>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/college/dgm.clg.jpg" alt="New York" width="400" height="300">
+      <p><strong>GADAG</strong></p>
+      <p>Shree D G M Ayurvedic Medical College</p>
+      <form action="tel:08372-238014"><button type="submit">phone</button>
+
+      </form>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/college/klepharmacy.jpg" alt="San Francisco" width="400" height="300">
+      <p><strong>GADAG</strong></p>
+      <p>K L E Societys College of Pharmacy</p>
+      <form action="tel:8372234893"><button type="submit">phone</button>
+
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<div class="row text-center">
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/college/naregal.jfif" alt="Paris" width="400" height="300">
+      <p><strong>NAREGAL</strong></p>
+      <p>SMBK Government First Grade College</p>
+      <form action="tel:(0831)268227"><button type="submit">phone</button>
+
+      </form>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/college/tontadarya.jpg" alt="New York" width="400" height="300">
+      <p><strong>GADAG</strong></p>
+      <p>Tontadarya College Of Engineering</p>
+      <form action="tel:08372-236933"><button type="submit">phone</button>
+
+      </form>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="images/college/rajiv.jpg" alt="San Francisco" width="400" height="300">
+      <p><strong>RON</strong></p>
+      <p>Rajiv Gandhi Education Society's B.Ed. College</p>
+      <form action="tel:08381–267452"><button type="submit">phone</button>
+
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+
+<!-- Container (Contact Section) -->
+
+      
+    
+      <footer>
+        
+    
+        <div class="footer-content">
+          
+    <a href="https://github.com/Jagadeeshgouda"> <img src="images/git1.webp" /></a>
+    
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 Designed by <span><a href="#">move up</a>.</span></p>
+            <a href="https://github.com/Jagadeeshgouda"> <img src="images/footer/git1.webp"  alt="header logo" /></a>
+            <a href="https://www.facebook.com/jagadeesh.rayangoudr.7"><img src="images/footer/Facebook.png" alt="header logo" /></a>
+            <a href="https://www.linkedin.com/in/jagadeeshgouda-rayangoudr-050337209"><img src="images/footer/linkedin.png" alt="header logo" /></a>
+            <a href="https://instagram.com/jagadeeshrayangoudr?igshid=YmMyMTA2M2Y="><img src="images/footer/insta.webp" alt="header logo" /></a>
+            <a href="mailto:jagadeeshgoudarayangoudr@gmail.com"><img src="images/footer/mail.png" alt="header logo" /></a>
+            
+          </div>  
+
+</body>
+</html>
